@@ -44,7 +44,6 @@
 .header__title {
   display: flex;
   align-self: center;
-  align-items: center;
   width: 720px;
   align-items: center;
   margin-left: 64px;
@@ -327,7 +326,6 @@
 
 }
 .footer__column-link {
-  display: block;
   text-decoration: none;
   color: white;
   display: flex;
