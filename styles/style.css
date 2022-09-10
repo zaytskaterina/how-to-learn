@@ -134,7 +134,7 @@
   margin:  0 0 1em;
 }
 .two-columns__span-accent {
-  margin:  0 0 0 0 ;
+  margin:  0 0 0 0;
   display: inline;
   line-height: 34px;
   font-size: 24px;
@@ -151,7 +151,7 @@
 }
 
 .section-title {
-  margin:  0 0 0 0 ;
+  margin:  0 0 0 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
