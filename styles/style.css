@@ -34,6 +34,7 @@
 }
 
 .logo_place_header {
+  margin: 0 0 0 0;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -42,11 +43,11 @@
 }
 
 .header__title {
+  margin: 0 0 0 64px;
   display: flex;
   align-self: center;
   width: 720px;
   align-items: center;
-  margin-left: 64px;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
@@ -54,6 +55,7 @@
 }
 
 .header__subtitle {
+  margin: 0 0 0 0;
   position: absolute;
   width: 338px;
   bottom: 30px;
@@ -74,8 +76,8 @@
   position: absolute;
   width: 765px;
   height: 608px;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   background-image: url('../images/header-image.png');
   background-size: cover;
 }
@@ -85,14 +87,13 @@
   width: 568px;
   height: 568px;
   top: 64px;
-  right: 0px;
+  right: 0;
   background-color: #2f80ed;
   z-index: -1;
 }
 
 .description{
   display: flex;
-  /*margin-bottom: 100px;*/
   justify-content: center;
 
 }
@@ -102,13 +103,12 @@
   margin-top: 100px;
   margin-bottom: 100px;
   width: 80%;
-  /*border: 1px solid blue;*/
   justify-content: space-between;
 
 }
 
 .two-columns__brief {
-  /*border: 1px solid blue;*/
+  margin: 0 0 0 0;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -118,7 +118,6 @@
 }
 
 .two-columns__main-text {
-  /*border: 1px solid blue;*/
   width: 80%;
   min-width: 784px;
   display: flex;
@@ -135,6 +134,7 @@
   margin:  0 0 1em;
 }
 .two-columns__span-accent {
+  margin:  0 0 0 0 ;
   display: inline;
   line-height: 34px;
   font-size: 24px;
@@ -151,6 +151,7 @@
 }
 
 .section-title {
+  margin:  0 0 0 0 ;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -159,6 +160,7 @@
 }
 
 .section-subtitle {
+  margin:  0 0 0 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -187,6 +189,7 @@
 }
 
 .table__heading {
+  margin: 0 0 0 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -243,8 +246,8 @@
 
 .feynman__img {
   position: absolute;
-  bottom:0px;
-  left: 0px;
+  bottom:0;
+  left: 0;
   z-index: 0;
   width: 867px;
   height: 637px;
@@ -273,7 +276,7 @@
   position: absolute;
   z-index: 0;
   right: -210px;
-  top:0px;
+  top:0;
   width: 877px;
   height: 877px;
 }
@@ -310,8 +313,8 @@
 
 .footer__author {
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   margin: 18px 0 18px 0;
   color: white;
   line-height: 25px;
