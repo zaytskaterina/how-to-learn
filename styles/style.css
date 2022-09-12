@@ -211,6 +211,7 @@
 
 .feynman__title {
   margin-top: 100px;
+  margin-bottom: 0;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -221,6 +222,7 @@
 
 .feynman__subtitle {
   margin-top: 70px;
+  margin-bottom: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
