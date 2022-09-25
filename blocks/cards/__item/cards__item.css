@@ -4,6 +4,6 @@
   text-align: center;
 }
 
-.cards__item:nth-of-type(3n) {
+.cards__item:nth-of-type(3n+3) {
   margin-right: 0;
 }
